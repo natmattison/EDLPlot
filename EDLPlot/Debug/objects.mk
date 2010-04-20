@@ -4,4 +4,4 @@
 
 USER_OBJS :=
 
-LIBS := -lSDLmain -lSDL_draw -lSDL
+LIBS := -lSDLmain -lSDL -lSDL_draw

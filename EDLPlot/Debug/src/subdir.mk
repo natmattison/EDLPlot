@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 C_SRCS += \
-../src/plot.c 
+../src/edlPlot.c \
+../src/edlplotsdl.c 
 
 OBJS += \
-./src/plot.o 
+./src/edlPlot.o \
+./src/edlplotsdl.o 
 
 C_DEPS += \
-./src/plot.d 
+./src/edlPlot.d \
+./src/edlplotsdl.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
